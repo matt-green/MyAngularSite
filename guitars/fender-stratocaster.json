@@ -1,0 +1,48 @@
+{
+    "construction": {
+        "type": "Solid", 
+        "neckJoint": "Bolt-on"
+    }, 
+    "price": [
+        "$700",
+        "$2500"
+    ], 
+    "hardware": {
+        "bridge": "Proprietary Tremolo Hardtail", 
+        "pickups": "3 single coils. Sometimes bridge pickup will be Hot Bridge Humbucker (deluxe models, etc.)"
+    }, 
+    "color": [
+        "Sunburst 2-color",
+        "Sunburst 3-color",
+        "Red",
+        "White",
+        "Black",
+        "Blue",
+        "Green"
+    ], 
+    "woods": {
+        "bodies": [
+            "Alder", 
+            "Ash", 
+            "Poplar",
+            "Basswood"
+        ], 
+        "neck": "Maple",
+        "fretboards": [
+            "Maple",
+            "Rosewood",
+            "Ebony",
+            "Pao Ferro"
+        ]
+    }, 
+    "id": "fender-stratocaster", 
+    "images": [
+        "img/guitars/fender-stratocaster.0.jpg", 
+        "img/guitars/fender-stratocaster.1.jpg", 
+        "img/guitars/fender-stratocaster.2.jpg", 
+        "img/guitars/fender-stratocaster.3.jpg", 
+        "img/guitars/fender-stratocaster.4.jpg"
+        ], 
+    "name": "Fender\u2122 Stratocaster", 
+    "description": "This guitar is the chice of greats like Jimi Hendrix, Pete Townsend, and David Gilmour. It remains popular as a gigging instrument, reliable and classic in its sound."
+}

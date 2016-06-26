@@ -1,0 +1,64 @@
+<div class="guitar-images">
+  <img ng-src="{{img}}" class="guitar"
+      ng-class="{selected: img === $ctrl.mainImageUrl}"
+      ng-repeat="img in $ctrl.guitar.images" />
+</div>
+
+<h1>{{$ctrl.guitar.name}}</h1>
+
+<p>{{$ctrl.guitar.description}}</p>
+
+<ul class="guitar-thumbs">
+  <li ng-repeat="img in $ctrl.guitar.images">
+    <img ng-src="{{img}}" ng-click="$ctrl.setImage(img)" />
+  </li>
+</ul>
+
+<ul class="specs">
+  <li>
+    <span>Price Range</span>
+    <dl>
+      <dt>Low</dt>
+      <dd ng-repeat="price in $ctrl.guitar.price">{{price}}</dd>
+      <dt>High</dt>
+    </dl>
+  </li>
+  <li>
+    <span>Construction</span>
+    <dl>
+      <dt>Body Type</dt>
+      <dd>{{$ctrl.guitar.construction.type}}</dd>
+      <dt>Neck Joint</dt>
+      <dd>{{$ctrl.guitar.construction.neckJoint}}</dd>
+    </dl>
+  </li>
+  <li>
+    <span>Hardware</span>
+    <dl>
+      <dt>Bridge</dt>
+      <dd>{{$ctrl.guitar.hardware.bridge}}</dd>
+      <dt>Pickups</dt>
+      <dd>{{$ctrl.guitar.hardware.pickups}}</dd>
+    </dl>
+  </li>
+  <li>
+    <span>Woods</span>
+    <dl>
+      <dt>Body</dt>
+      <dd ng-repeat="wood in $ctrl.guitar.woods.bodies">{{wood}}</dd>
+      &nbsp;
+      <dt>Neck</dt>
+      <dd>{{$ctrl.guitar.woods.neck}}</dd>
+      &nbsp;
+      <dt>Fretboard</dt>
+      <dd ng-repeat="wood in $ctrl.guitar.woods.fretboards">{{wood}}</dd>
+    </dl>
+  </li>
+    <li>
+    <span>Available Colors</span>
+    <dl>
+<!--       <dt>title necessary?</dt> -->
+      <dd ng-repeat="color in $ctrl.guitar.color">{{color}}</dd>
+    </dl>
+  </li>
+</ul>

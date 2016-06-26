@@ -1,0 +1,43 @@
+{
+    "construction": {
+        "type": "Solid", 
+        "neckJoint": "Bolt-on"
+    }, 
+    "price": [
+        "$1300",
+        "$3000"
+    ], 
+    "hardware": {
+        "bridge": "PRS-Designed Tremolo", 
+        "pickups": "PRS SE Humbuckers"
+    }, 
+    "color": [
+        "Red",
+        "White",
+        "Purple",
+        "Blue",
+        "Green"
+    ], 
+    "woods": {
+        "bodies": [
+            "Maple", 
+            "Mahogany" 
+
+        ], 
+        "neck": "Maple",
+        "fretboards": [
+            "Maple",
+            "Rosewood"
+        ]
+    }, 
+    "id": "prs-custom-24", 
+    "images": [
+        "img/guitars/prs-custom-24.0.jpg", 
+        "img/guitars/prs-custom-24.1.jpg", 
+        "img/guitars/prs-custom-24.2.jpg", 
+        "img/guitars/prs-custom-24.3.jpg", 
+        "img/guitars/prs-custom-24.4.jpg"
+        ], 
+    "name": "PRS\u2122 Custom 24", 
+    "description": "This high end, well-toned guitar model is prehaps most famous for being seen used by Carlos Santana, but sees its way into the hands of many virtuoso players."
+}

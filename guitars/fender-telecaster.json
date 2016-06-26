@@ -1,0 +1,44 @@
+{
+    "construction": {
+        "type": "Solid", 
+        "neckJoint": "Bolt-on"
+    }, 
+    "price": [
+        "$600",
+        "$2000"
+    ], 
+    "hardware": {
+        "bridge": "Proprietary Ashtray Bridge", 
+        "pickups": "2 single coils"
+    }, 
+    "color": [
+        "Sunburst 2-color",
+        "Sunburst 3-color",
+        "Black",
+        "Blond"
+    ], 
+    "woods": {
+        "bodies": [
+            "Alder", 
+            "Ash", 
+            "Poplar",
+            "Pine",
+            "Basswood"
+        ], 
+        "neck": "Maple",
+        "fretboards": [
+            "Maple",
+            "Rosewood"
+        ]
+    }, 
+    "id": "fender-telecaster", 
+    "images": [
+        "img/guitars/fender-telecaster.0.jpg", 
+        "img/guitars/fender-telecaster.1.jpg", 
+        "img/guitars/fender-telecaster.2.jpg", 
+        "img/guitars/fender-telecaster.3.jpg", 
+        "img/guitars/fender-telecaster.4.jpg"
+        ], 
+    "name": "Fender\u2122 Telecaster", 
+    "description": "Fender's bluesy, soulful, and twangy classic. Admired by artists such as Muddy Waters, Jimmy Page, and Keith Richards."
+}

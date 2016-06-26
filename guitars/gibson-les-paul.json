@@ -1,0 +1,41 @@
+{
+    "construction": {
+        "type": "Solid", 
+        "neckJoint": "Set-in"
+    }, 
+    "price": [
+        "$800",
+        "$2700"
+    ], 
+    "hardware": {
+        "bridge": "Tune-O-Matic", 
+        "pickups": "2 (sometimes 3) Humbuckers"
+    }, 
+    "color": [
+        "Sunburst",
+        "Goldtop",
+        "Dark Red",
+        "Black"
+    ], 
+    "woods": {
+        "bodies": [
+            "Mahogany"
+        ], 
+        "neck": "Mahogany",
+        "fretboards": [
+            "Maple",
+            "Rosewood",
+            "Ebony"
+        ]
+    }, 
+    "id": "gibson-les-paul", 
+    "images": [
+        "img/guitars/gibson-les-paul.0.jpg", 
+        "img/guitars/gibson-les-paul.1.jpg", 
+        "img/guitars/gibson-les-paul.2.jpg", 
+        "img/guitars/gibson-les-paul.3.jpg", 
+        "img/guitars/gibson-les-paul.4.jpg"
+        ], 
+    "name": "Gibson\u2122 Les Paul", 
+    "description": "This guitar shaped the blues-rock sound and heavy rock sounds of the likes of Led Zeppelin, Guns N' Roses, ZZ Top, and more."
+}

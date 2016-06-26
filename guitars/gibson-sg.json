@@ -1,0 +1,45 @@
+{
+    "construction": {
+        "type": "Solid", 
+        "neckJoint": "Set-in"
+    }, 
+    "price": [
+        "$800",
+        "$1300"
+    ], 
+    "hardware": {
+        "bridge": "Tune-O-Matic", 
+        "pickups": "P-90s, sometimes Humbuckers"
+    }, 
+    "color": [
+        "Red",
+        "Black",
+        "Purple",
+        "Green"
+    ], 
+    "woods": {
+        "bodies": [
+            "Maple", 
+            "Mahogany" ,
+            "Laminate",
+            "Birch"
+
+        ], 
+        "neck": "Mahogany",
+        "fretboards": [
+            "Maple",
+            "Rosewood",
+            "Ebony"
+        ]
+    }, 
+    "id": "gibson-sg", 
+    "images": [
+        "img/guitars/gibson-sg.0.jpg", 
+        "img/guitars/gibson-sg.1.jpg", 
+        "img/guitars/gibson-sg.2.jpg", 
+        "img/guitars/gibson-sg.3.jpg", 
+        "img/guitars/gibson-sg.4.jpg"
+        ], 
+    "name": "Gibson\u2122 SG", 
+    "description": "This guitar's devilish horns are a sign of it's powerful sound. This guitar produced monster riffs from the likes of AC/DC and Black Sabbath."
+}

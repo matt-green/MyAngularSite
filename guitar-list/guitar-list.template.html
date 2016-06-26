@@ -1,0 +1,40 @@
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-2">
+      <!--Sidebar content-->
+
+      <p>
+        Search:
+        <input ng-model="$ctrl.query" />
+      </p>
+
+      <p>
+        Sort by:
+        <select ng-model="$ctrl.orderProp">
+          <option value="name">Alphabetical</option>
+          <option value="age">Newest</option>
+          <option value="price">Price - Low to High</option>
+          <option value="-price">Price - High to Low</option>
+        </select>
+      </p>
+
+    </div>
+    <div class="col-md-10">
+      <!--Body content-->
+      <h2>Welcome to the Guitar listing! Click each one to see more information.</h2>
+
+      <ul class="guitars">
+        <li ng-repeat="guitar in $ctrl.guitars | filter:$ctrl.query | orderBy:$ctrl.orderProp"
+            class="thumbnail guitar-list-item">
+          <a href="#!/guitars/{{guitar.id}}" class="thumb">
+            <img ng-src="{{guitar.imageUrl}}" alt="{{guitar.name}}" />
+          </a>
+          <a href="#!/guitars/{{guitar.id}}">{{guitar.name}}</a>
+          <p>Average Price as New: ${{guitar.price}}</p>
+          <p>{{guitar.snippet}}</p>
+        </li>
+      </ul>
+
+    </div>
+  </div>
+</div>
